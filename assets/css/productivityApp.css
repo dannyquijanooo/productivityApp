@@ -157,7 +157,6 @@ h4.bda {
 }
 
 .mockupdiv {
-    width: 100%;
     background-color: #F5F5F5;
-    background-image: url();
+    background-size: cover;
 }
