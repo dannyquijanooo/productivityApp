@@ -128,6 +128,24 @@ h1.sectionTitle {
     padding-bottom: 25px;
 }
 
+div.relative {
+    position: relative;
+    max-width: 500px;
+    min-width: 250px;
+    height: fit-content;
+    top: 175px;
+    left: 50px;
+}
+.landingText {
+    top: 175px;
+    max-width: 500px;
+    min-width: 250px;
+    height: fit-content;
+    margin-top: 175px;
+    margin-left: 75px;
+    margin-right: auto;
+}
+
 h1.sectionHeader {
     font-weight: bold;
     text-align: center;
@@ -179,6 +197,7 @@ h4.bda {
     font-weight: bold;
     text-align: center;
     padding-bottom: 50px;
+    padding-top: 25px;
 }
 
 .row {
