@@ -103,3 +103,55 @@ img {
     height: auto;
     vertical-align: middle;
 }
+
+/* .sectionBox {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 460px;
+    background-color: #F5F5F5;
+}
+
+h1.sectionTitle {
+    color: #242080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px!important;
+    text-align: center;
+    font-style: bold; */
+
+/* } */
+
+.creditBox {
+    min-width: 100%;
+    min-height: fit-content;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h6.memberName {
+    color: #59B9B5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.roleList {
+    color: #242080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h4.bda {
+    color: #242080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
