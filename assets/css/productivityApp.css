@@ -158,6 +158,7 @@ h4.bda {
 }
 
 .mockupdiv {
+<<<<<<< HEAD
     /* min-width: 1920px; */
     max-width: 100%;
     height: 864px;
@@ -258,3 +259,8 @@ h1.mainHeader {
   transition: all .7s ease-in-out;
  }
 >>>>>>> 1f6cc1029621830fd8983e73d8c3f5b91073d2a4
+=======
+    background-color: #F5F5F5;
+    background-size: cover;
+}
+>>>>>>> 0f7e89ccd7dea70a526dfd9f172360891051d48d
