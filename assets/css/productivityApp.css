@@ -51,35 +51,35 @@ div.observationQuotes {
 h1.researchBoldText {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 15px!important;
-    font-weight: bold!important;
+    font-size: 15px !important;
+    font-weight: bold !important;
 }
 
 h2.regularText {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 15px!important;
+    font-size: 15px !important;
 }
 
 h3.circleText {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 15px!important;
-    font-weight: bold!important;
+    font-size: 15px !important;
+    font-weight: bold !important;
 }
 
 h4.veryBoldText {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 30px!important;
-    font-weight: bold!important;
+    font-size: 30px !important;
+    font-weight: bold !important;
 }
 
 p.italicText {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 15px!important;
+    font-size: 15px !important;
     font-style: italic;
     text-align: center;
     padding: 10px;
@@ -104,7 +104,7 @@ img.personaImg {
     vertical-align: middle;
 }
 
-body{
+body {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -126,74 +126,175 @@ h1.mainHeader {
     padding-top: 40px;
     padding-bottom: 40px;
     color: rgb(47, 39, 77);
- }
- /* Section Circle */
- .counter {
+}
+
+/* Section Circle */
+.counter {
     padding-top: 40px;
     padding-bottom: 40px;
- }
- .counter .one {
-   position: relative;
-   border: 7px solid rgb(47, 39, 77);
-   background-color: rgb(47, 39, 77);
-   border-radius: 50%;
-   width: 190px;
-   height: 190px;
-   padding: 40px 12px;
-   text-align: center;
- }
+}
+
+.counter .one {
+    position: relative;
+    border: 7px solid rgb(47, 39, 77);
+    background-color: rgb(47, 39, 77);
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    padding: 40px 12px;
+    text-align: center;
+}
+
 .one h3 {
     font-weight: bold;
     color: white;
     text-align: center;
- }
-  /* Section About */
-  .sectionAbout { 
+}
+
+/* Section About */
+.sectionAbout {
     padding-top: 40px;
     padding-bottom: 40px;
- }
-  .sectionAbout .head {
+}
+
+.sectionAbout .head {
     text-align: center;
-  }
-  .sectionAbout .head .h1 {
+}
+
+.sectionAbout .head .h1 {
     padding-bottom: 25px;
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
-  }
-  .sectionAbout .head p {
+}
+
+.sectionAbout .head p {
     font-size: 24px;
     font-weight: 300;
-  }
- /* Section Features */
- .featureSection {
+}
+
+/* Section Features */
+.featureSection {
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: #6DB6A1;
- }
- .featureSection h1{
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  padding-top: 40px;
-  color: white;
-  font-style: italic;
- }
- .featureSection .section{
+}
+
+.featureSection h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    color: white;
+    font-style: italic;
+}
+
+.featureSection .section {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
- }
- .featureSection .section:hover i{
-  background-color: rgb(47, 39, 77);
- }
- .featureSection .section i{
-  background-color: white;
-  width: 70px;
-  height: 70px;
-  padding-top: 20px;
-  font-size: 30px;
-  color: #6DB6A1;
-  border-radius: 50%;
-  transition: all .7s ease-in-out;
- }
+}
+
+.featureSection .section:hover i {
+    background-color: rgb(47, 39, 77);
+}
+
+.featureSection .section i {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #6DB6A1;
+    border-radius: 50%;
+    transition: all .7s ease-in-out;
+}
+
+/* Build Section */
+
+img.buildImages {
+    padding: 40px;
+    max-width: 100%;
+    min-width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#buildSection {
+    padding: 40px;
+}
+
+/* Ideate Section */
+
+div.container-fluid.mappingBrainstorm {
+    padding: 100px;
+}
+
+.row.mappingbrainstormRow {
+    background-color: #F5F5F5;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+h4.mappingbrainBoldText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242080;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+h2.mappingbrainRegularText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242080;
+    font-size: 20px !important;
+}
+img.mappingimage {
+    max-width: 100%;
+    min-width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+/* Information Architecture Section  */
+
+.row.informationarchRow {
+    background-color: #2E2C5A;
+    padding-top: 50px;
+}
+h4.informationarchBoldText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F5F5;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+h2.informationarchRegularText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F5F5;
+    font-size: 20px !important;
+}
+img.informationarchimage {
+    max-width: 100%;
+    min-width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+/* Task Flow Section  */
+
+.row.taskflowRow {
+    background-color: #2E2C5A;
+    padding-top: 50px;
+}
+h4.taskflowBoldText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F5F5;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+h2.taskflowRegularText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F5F5;
+    font-size: 20px !important;
+}
+img.taskflowimage {
+    max-width: 100%;
+    min-width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
