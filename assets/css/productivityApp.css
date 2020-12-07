@@ -104,9 +104,7 @@ img.personaImg {
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* .sectionBox {
+.sectionBox {
     max-width: 100%;
     min-width: 100%;
     min-height: 460px;
@@ -116,56 +114,15 @@ img.personaImg {
 h1.sectionTitle {
     color: #242080;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px!important;
+    font-size: 100px !important;
     text-align: center;
-    font-style: bold; */
-
-/* } */
-
-.sectionBox {
-    width: fit-content;
-    height: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    font-style: bold;
 }
-
-div.relative {
-    position: relative;
-    max-width: 500px;
-    min-width: 250px;
-    height: fit-content;
-    top: 175px;
-    left: 50px;
-}
-.landingText {
-    top: 175px;
-    max-width: 500px;
-    min-width: 250px;
-    height: fit-content;
-    margin-top: 175px;
-    margin-left: 75px;
-    margin-right: auto;
-}
-
-h1.sectionHeader {
-    font-weight: bold;
-    text-align: center;
-    color:#242080;
- }
-
- h4.sectionSubhead {
-     font-weight: bold;
-     text-align: center;
-     color: #59b9b5;
- }
 
 .creditBox {
     min-width: 100%;
     min-height: fit-content;
     background-color: #F5F5F5;
-}
-
-.textBox {
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -184,13 +141,6 @@ p.roleList {
     font-weight: bold;
 }
 
-h6.roleList {
-    color: #242080;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-}
-
 h4.bda {
     color: #242080;
     font-family: Arial, Helvetica, sans-serif;
@@ -198,7 +148,6 @@ h4.bda {
     font-weight: bold;
     text-align: center;
     padding-bottom: 50px;
-    padding-top: 25px;
 }
 
 .row {
@@ -207,17 +156,13 @@ h4.bda {
 }
 
 .mockupdiv {
-<<<<<<< HEAD
     /* min-width: 1920px; */
     max-width: 100%;
     height: 864px;
     background-color: #E5E6E8;
 }
-=======
-body{
-=======
+
 body {
->>>>>>> 80fda33782f05701a0f149db6d729924ac28a3d9
     font-family: "Open Sans", sans-serif;
 }
 
@@ -306,28 +251,21 @@ h1.mainHeader {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
-<<<<<<< HEAD
- }
- .featureSection .section:hover i{
-  background-color: rgb(47, 39, 77);
- }
- .featureSection .section i{
-  background-color: white;
-  width: 70px;
-  height: 70px;
-  padding-top: 20px;
-  font-size: 30px;
-  color: #6DB6A1;
-  border-radius: 50%;
-  transition: all .7s ease-in-out;
- }
->>>>>>> 1f6cc1029621830fd8983e73d8c3f5b91073d2a4
-=======
-    background-color: #F5F5F5;
-    background-size: cover;
 }
->>>>>>> 0f7e89ccd7dea70a526dfd9f172360891051d48d
-=======
+
+.featureSection .section:hover i {
+    background-color: rgb(47, 39, 77);
+}
+
+.featureSection .section i {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #6DB6A1;
+    border-radius: 50%;
+    transition: all .7s ease-in-out;
 }
 
 .featureSection .section:hover i {
@@ -346,7 +284,6 @@ h1.mainHeader {
 }
 
 /* Build Section */
-
 img.buildImages {
     padding: 40px;
     max-width: 100%;
@@ -360,7 +297,6 @@ img.buildImages {
 }
 
 /* Ideate Section */
-
 div.container-fluid.mappingBrainstorm {
     padding: 100px;
 }
@@ -370,67 +306,75 @@ div.container-fluid.mappingBrainstorm {
     padding-top: 40px;
     padding-bottom: 30px;
 }
+
 h4.mappingbrainBoldText {
     font-family: Arial, Helvetica, sans-serif;
     color: #242080;
     font-size: 30px !important;
     font-weight: bold !important;
 }
+
 h2.mappingbrainRegularText {
     font-family: Arial, Helvetica, sans-serif;
     color: #242080;
     font-size: 20px !important;
 }
+
 img.mappingimage {
     max-width: 100%;
     min-width: 80px;
     height: auto;
     vertical-align: middle;
 }
-/* Information Architecture Section  */
 
+/* Information Architecture Section  */
 .row.informationarchRow {
     background-color: #2E2C5A;
     padding-top: 50px;
 }
+
 h4.informationarchBoldText {
     font-family: Arial, Helvetica, sans-serif;
     color: #F5F5F5;
     font-size: 30px !important;
     font-weight: bold !important;
 }
+
 h2.informationarchRegularText {
     font-family: Arial, Helvetica, sans-serif;
     color: #F5F5F5;
     font-size: 20px !important;
 }
+
 img.informationarchimage {
     max-width: 100%;
     min-width: 80px;
     height: auto;
     vertical-align: middle;
 }
-/* Task Flow Section  */
 
+/* Task Flow Section  */
 .row.taskflowRow {
     background-color: #2E2C5A;
     padding-top: 50px;
 }
+
 h4.taskflowBoldText {
     font-family: Arial, Helvetica, sans-serif;
     color: #F5F5F5;
     font-size: 30px !important;
     font-weight: bold !important;
 }
+
 h2.taskflowRegularText {
     font-family: Arial, Helvetica, sans-serif;
     color: #F5F5F5;
     font-size: 20px !important;
 }
+
 img.taskflowimage {
     max-width: 100%;
     min-width: 80px;
     height: auto;
     vertical-align: middle;
 }
->>>>>>> 80fda33782f05701a0f149db6d729924ac28a3d9
