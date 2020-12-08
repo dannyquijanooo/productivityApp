@@ -357,7 +357,7 @@ h2.informationarchRegularText {
 }
 
 img.informationarchimage {
-    max-width: 100%;
+    /* max-width: 100%; */
     min-width: 80px;
     height: auto;
     vertical-align: middle;
